@@ -1,0 +1,22 @@
+body {
+  font-family: "Roboto Slab", serif;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+#wrap {
+  overflow: hidden;
+}
+.relative {
+  position: relative;
+}
+/*-------------------------------
+            header
+-------------------------------*/
+/*-------   nav   -------*/
