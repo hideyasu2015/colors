@@ -120,3 +120,38 @@ li {
   color: #000000; /* 背景色     */
   background: #ffffff; /* 文字色     */
 }
+/*-------------------------------
+            counterup
+-------------------------------*/
+.backcolor-b {
+  background-color: black;
+}
+.counter-num-text {
+  font-size: 50px;
+  color: #ffffff;
+}
+.counter-com-text3 {
+  font-size: 10px;
+}
+/*-------------------------------
+            cast
+-------------------------------*/
+.fa-facebook-f,
+.fa-twitter,
+.fa-instagram,
+.fa-linkedin-in {
+  padding-right: 15px;
+  color: #000000;
+}
+/*-------------------------------
+            newsletter
+-------------------------------*/
+.news-img {
+  background: url();
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.gray-backimg {
+  background-color: rgba(0, 0, 0, 0.6);
+}
