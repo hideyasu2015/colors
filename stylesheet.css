@@ -1,5 +1,6 @@
 body {
   font-family: "Roboto Slab", serif;
+  height: 10000px;
 }
 a {
   text-decoration: none;
@@ -20,3 +21,37 @@ li {
             header
 -------------------------------*/
 /*-------   nav   -------*/
+
+/*-------   carousel   -------*/
+/*  カルーセルの高さ  */
+#main .carousel-item {
+  height: 100vh;
+}
+.carousel-1 {
+  background-image: url(./images/carousel_1.jpg);
+}
+.carousel-2 {
+  background-image: url(./images/carousel_2.jpg);
+}
+.carousel-3 {
+  background-image: url(./images/carousel_3.jpg);
+}
+.carousel-style {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#main .carousel-control-prev,
+.carousel-control-next {
+  background-color: rgba(173, 216, 230, 0);
+  border: none;
+}
+/* カルーセルテキストスタイル　*/
+.carousel-caption {
+  height: 300px;
+}
+.carousel-caption h1 {
+  font-size: 80px;
+  font-weight: bolder;
+  letter-spacing: 50px;
+}

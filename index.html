@@ -22,35 +22,42 @@
 </head>
 <body>
     <div id="wrap">
-        <head>
+        <header>
             <section id="top">
                 <div class="container-fuluid">
                     <div class="row">
                         <nav class="navbar navbar-expand-lg navbar-light bg-light">
                             <div class="container-fluid">
-                                <a class="navbar-brand" href="#">Navbar</a>
+                                <a class="navbar-brand" href="#">Colors</a>
                                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                                     <span class="navbar-toggler-icon"></span>
                                 </button>
-                                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                <div class="collapse navbar-collapse flex-row-reverse me-5" id="navbarNavDropdown">
                                     <ul class="navbar-nav">
-                                        <li class="nav-item">
+                                        <li class="nav-item me-5">
                                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                                         </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">Features</a>
+                                        <li class="nav-item me-5">
+                                            <a class="nav-link" href="#">PAGES</a>
                                         </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">Pricing</a>
+                                        <li class="nav-item me-5">
+                                            <a class="nav-link" href="#">PORTFOLIO</a>
                                         </li>
-                                        <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            Dropdown link
+                                        <li class="nav-item me-5">
+                                            <a class="nav-link" href="#">BLOG</a>
+                                        </li>
+                                        <li class="nav-item me-5">
+                                            <a class="nav-link" href="#">SHOP</a>
+                                        </li>
+                                        <li class="nav-item me-5 dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                ELEMENTS
                                             </a>
-                                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                              <li><a class="dropdown-item" href="#">Action</a></li>
+                                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                                              <li><hr class="dropdown-divider"></li>
+                                              <li><a class="dropdown-item" href="#">Something else here</a></li>
                                             </ul>
                                         </li>
                                     </ul>
@@ -60,10 +67,58 @@
                     </div>
                 </div>
             </section>
-        </head>
+        </header>
         <section id="main">
-            <div class="container-fulid"></div>
-            <div class="row">
+            <div class="container-fulid">
+                <div class="row">
+                    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active carousel-1 carousel-style">
+                                <div class="carousel-caption">
+                                    <h4>New you</h4>
+                                    <h1 class="top-text">・STYLISH・</h1>
+                                    <h4>NEW YORK・SINCE 2004</h4>
+                                    <div class="dflex mt-5">
+                                        <a class="aboutus me-3" href="#">About Us</a>
+                                        <a class="subscribenow" href="#">Subscribe Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item carousel-2 carousel-style">
+                                <div class="carousel-caption">
+                                    <h4>New you</h4>
+                                    <h1 class="top-text">・STYLISH・</h1>
+                                    <h4>NEW YORK・SINCE 2004</h4>
+                                    <div class="dflex mt-5">
+                                        <a class="aboutus me-3" href="#">About Us</a>
+                                        <a class="subscribenow" href="#">Subscribe Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item carousel-3 carousel-style">
+                                <div class="carousel-caption">
+                                    <h4>New you</h4>
+                                    <h1 class="top-text">・STYLISH・</h1>
+                                    <h4>NEW YORK・SINCE 2004</h4>
+                                    <div class="dflex mt-5">
+                                        <a class="aboutus me-3" href="#">About Us</a>
+                                        <a class="subscribenow" href="#">Subscribe Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only"></span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <section id="worginghours">
@@ -101,6 +156,8 @@
     
     <!-- bootstrap  -->
     <script src=".node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     <!-- aos -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
