@@ -21,7 +21,9 @@ li {
             header
 -------------------------------*/
 /*-------   nav   -------*/
-
+/*-------------------------------
+            main
+-------------------------------*/
 /*-------   carousel   -------*/
 /*  カルーセルの高さ  */
 #main .carousel-item {
@@ -48,10 +50,73 @@ li {
 }
 /* カルーセルテキストスタイル　*/
 .carousel-caption {
-  height: 300px;
+  height: 350px;
 }
 .carousel-caption h1 {
-  font-size: 80px;
+  font-size: 50px;
   font-weight: bolder;
-  letter-spacing: 50px;
+  letter-spacing: 30px;
+}
+/*-------------------------------
+            workinghours
+-------------------------------*/
+.workinghours-img {
+  background-image: url(./images/workinghours.jpg);
+  background-size: cover;
+}
+.h-workinghours1 {
+  height: 150px;
+  margin-left: 80px;
+  margin-bottom: 50px;
+}
+
+.h-workinghours2 {
+  height: 350px;
+  margin-left: 80px;
+  margin-bottom: 50px;
+}
+.hours-text {
+  margin-top: 100px;
+}
+.fw-workinghours {
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+  text-align: right;
+}
+/*-------------------------------
+            ourhow
+-------------------------------*/
+.h-ourhow {
+  height: 600px;
+}
+.our-text {
+  margin-top: 30%;
+  color: white;
+}
+.our-img-l {
+  background-image: url(./images/ourhow_1_640.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.our-img-r {
+  background-image: url(./images/sozai_2.jpg);
+}
+.read-more-button {
+  display: inline-block;
+  font-size: 15pt; /* 文字サイズ */
+  text-align: center; /* 文字位置   */
+  cursor: pointer; /* カーソル   */
+  padding: 19px 62px; /* 余白       */
+  background: #000000; /* 背景色     */
+  color: #ffffff; /* 文字色     */
+  line-height: 1em; /* 1行の高さ  */
+  transition: 0.3s; /* なめらか変化 */
+  border: 2px solid white; /* 枠の指定 */
+  letter-spacing: 10px;
+}
+.read-more-button:hover {
+  color: #000000; /* 背景色     */
+  background: #ffffff; /* 文字色     */
 }
