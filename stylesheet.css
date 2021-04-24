@@ -147,11 +147,13 @@ li {
             newsletter
 -------------------------------*/
 .news-img {
-  background: url();
+  background: url(./images/news_letters_1280.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  
 }
 .gray-backimg {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 400px;
 }
