@@ -81,7 +81,12 @@
         <section id="main">
             <div class="container-fluid">
                 <div class="row">
-                    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+                        </ol>
                         <div class="carousel-inner">
                             <div class="carousel-item active carousel-1 carousel-style">
                                 <div class="carousel-caption">
@@ -338,14 +343,14 @@
                             hairdressers that will</p>
                         <p class="text-white">transform your look. Follow us!</p>
                     </div>
-                    <form action="#" method="post" class="row">
-                        <div class="col-md-4">
+                    <form action="#" method="post" class="row d-flex justify-content-center align-items-center m-0">
+                        <div class="col-md-4 offset-md-2">
                             <label for="staticEmail2" class="visually-hidden">Email</label>
                             <input type="email" name="youremail" class="form-control" id="staticEmail2"
                                 placeholder="Email">
                         </div>
                         <div class="email-submit col-md-2">
-                            <button type="submit" class="btn btn-light mb-3">SIGN UP</button>
+                            <button type="submit" class="btn btn-light">SIGN UP</button>
                         </div>
                     </form>
                 </div>

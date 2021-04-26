@@ -30,6 +30,10 @@
     background-color: black;
     height: 600px;
   }
+  .email-submit{
+    margin-top: 10px;
+    text-align: center;
+  }
 }
 
 @media (max-width: 411px) {
