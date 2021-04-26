@@ -33,6 +33,10 @@ li {
   color: black;
   background-color: gray;
 }
+.navbar-light .navbar-toggler {
+  border-color: rgba(0,0,0,0);
+}
+
 /*-------------------------------
             main
 -------------------------------*/
