@@ -1,6 +1,5 @@
 body {
   font-family: "Roboto Slab", serif;
-  height: 10000px;
 }
 a {
   text-decoration: none;
@@ -125,6 +124,7 @@ li {
 -------------------------------*/
 .backcolor-b {
   background-color: black;
+  height: 300px;
 }
 .counter-num-text {
   font-size: 50px;
@@ -156,4 +156,9 @@ li {
 .gray-backimg {
   background-color: rgba(0, 0, 0, 0.4);
   height: 400px;
+}
+
+
+.navbar-default {
+  background: none;
 }

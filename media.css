@@ -26,6 +26,10 @@
     height: 100px;
     margin-left: 80px;
   }
+  .backcolor-b {
+    background-color: black;
+    height: 600px;
+  }
 }
 
 @media (max-width: 411px) {
