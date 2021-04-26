@@ -20,6 +20,19 @@ li {
             header
 -------------------------------*/
 /*-------   nav   -------*/
+.navbar{
+  position: absolute;
+  top: 0px;
+  z-index: 10;
+  font-weight: bold;
+}
+.navbar ul li a{
+  color: #ffffff;
+}
+.dropdown-menu {
+  color: black;
+  background-color: gray;
+}
 /*-------------------------------
             main
 -------------------------------*/
@@ -55,6 +68,11 @@ li {
   font-size: 50px;
   font-weight: bolder;
   letter-spacing: 30px;
+  
+}
+.fs-slide1,.fs-slide2,.fs-slide3 {
+  color: rgba(249, 249, 249, 0.8);
+  text-shadow: 1px 2px 10px #a3a3a3;
 }
 /*-------------------------------
            フォント関連
@@ -66,7 +84,7 @@ li {
             workinghours
 -------------------------------*/
 .workinghours-img {
-  background-image: url(./images/workinghours.jpg);
+  background-image: url(./images/workinghours_2.jpeg);
   background-size: cover;
 }
 .h-workinghours1 {
@@ -145,7 +163,7 @@ li {
   font-size: 10px;
 }
 /*-------------------------------
-            cast
+            staff
 -------------------------------*/
 .fa-facebook-f,
 .fa-twitter,
@@ -153,6 +171,25 @@ li {
 .fa-linkedin-in {
   padding-right: 15px;
   color: #000000;
+}
+.staff-img1{
+  background-image: url(./images/staff_1.jpg);
+}
+.staff-img2{
+  background-image: url(./images/staff_2.jpg);
+  
+}
+.staff-img3{
+  background-image: url(./images/staff_3.jpg); 
+}
+.staff-img{
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  height: 600px;
+  box-shadow: 5px 5px 20px 8px rgba(3, 8, 40, 0.3);
 }
 /*-------------------------------
             newsletter
@@ -169,7 +206,3 @@ li {
   height: 400px;
 }
 
-
-.navbar-default {
-  background: none;
-}

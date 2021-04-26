@@ -1,20 +1,25 @@
 @charset "utf-8";
 
 @media (max-width: 850px) {
+
+  .carousel-caption {
+    height: 450px;
+  }
   .carousel-caption h1 {
     font-size: 60px;
     font-weight: bolder;
     letter-spacing: 15px;
   }
+
 }
 
 @media (max-width: 768px) {
+  
   .carousel-caption h1 {
     font-size: 40px;
     font-weight: bolder;
     letter-spacing: 0px;
   }
-
   .fw-workinghours {
     font-size: 40px;
     font-weight: 500;
@@ -33,6 +38,14 @@
   .email-submit{
     margin-top: 10px;
     text-align: center;
+  }
+  .staff-img{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    height: 800px;
   }
 }
 
