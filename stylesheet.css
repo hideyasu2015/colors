@@ -100,13 +100,18 @@ li {
   margin-top: 30%;
   color: white;
 }
-.our-img-l {
+.our-img-1 {
   background-image: url(./images/ourhow_1_640.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
-.our-img-r {
-  background-image: url(./images/sozai_2.jpg);
+.our-img-2 {
+  background-image: url(./images/ourhow_2_640.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.our-img-c {
+  background-color: #1f1128;
 }
 .read-more-button {
   display: inline-block;
