@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto Slab", serif;
+  font-family: 'Montserrat', sans-serif;
 }
 a {
   text-decoration: none;
@@ -56,7 +56,12 @@ li {
   font-weight: bolder;
   letter-spacing: 30px;
 }
-
+/*-------------------------------
+           フォント関連
+-------------------------------*/
+.f-ourhow {
+  font-weight: 900;
+}
 /*-------------------------------
             workinghours
 -------------------------------*/
@@ -80,7 +85,7 @@ li {
 }
 .fw-workinghours {
   font-size: 40px;
-  font-weight: 700;
+  font-weight: bold;
   letter-spacing: 0.025em;
   text-transform: uppercase;
   text-align: right;
