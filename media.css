@@ -42,14 +42,13 @@
   }
   .fw-workinghours {
     font-size: 40px;
-    font-weight: 500;
     letter-spacing: 0.025em;
     text-transform: uppercase;
     text-align: left;
   }
   .h-workinghours1 {
-    height: 100px;
-    margin-left: 80px;
+    height: 150px;
+    margin: 0 auto;
   }
   .backcolor-b {
     background-color: black;
@@ -68,12 +67,14 @@
     height: 800px;
   }
 }
+
 @media (max-width: 575px){
 .h-workinghours2{
   margin-left: 0;
 }
 
 }
+
 @media (max-width: 411px) {
   .carousel-caption h1 {
     font-size: 30px;
@@ -88,5 +89,12 @@
   }
   .fs-carousel-text2{
     font-size: 2px
+  }
+}
+
+@media(max-width: 375px){
+  
+  .hours-list ul{
+    margin-top: 30px;
   }
 }

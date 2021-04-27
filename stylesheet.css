@@ -113,11 +113,10 @@ li {
   background-size: cover;
 }
 .h-workinghours1 {
-  height: 150px;
+  height: 350px;
   margin-left: 80px;
   margin-bottom: 50px;
 }
-
 .h-workinghours2 {
   height: 350px;
   margin-left: 80px;
@@ -132,6 +131,9 @@ li {
   letter-spacing: 0.025em;
   text-transform: uppercase;
   text-align: right;
+}
+.h-workinghours1{
+  margin: 0;
 }
 /*-------------------------------
             ourhow
