@@ -48,7 +48,12 @@
     height: 800px;
   }
 }
+@media (max-width: 575px){
+.h-workinghours2{
+  margin-left: 0;
+}
 
+}
 @media (max-width: 411px) {
   .carousel-caption h1 {
     font-size: 30px;
