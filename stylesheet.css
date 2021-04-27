@@ -16,7 +16,6 @@ li {
 .relative {
   position: relative;
 }
-
 .fs-newsletter{
   letter-spacing: 15px;
 }
@@ -71,9 +70,7 @@ li {
   left: 0;
   background-color: rgba(0,0,0,0.5);
   }
-.gray-backimg{
-  background-color: rgba(0, 0, 0, 0.6);
-}
+
 #main .carousel-control-prev,
 .carousel-control-next {
   background-color: rgba(173, 216, 230, 0);
