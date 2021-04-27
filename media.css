@@ -10,15 +10,35 @@
     font-weight: bolder;
     letter-spacing: 15px;
   }
-
+  .fs-carousel-text1{
+    font-family: 'Caveat', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Parisienne', cursive;
+    font-size: 40px
+  }
+  .fs-carousel-text2{
+    font-size: 10px
+  }
 }
 
 @media (max-width: 768px) {
   
+  .carousel-caption {
+    height: 400px;
+  }
   .carousel-caption h1 {
     font-size: 40px;
     font-weight: bolder;
     letter-spacing: 0px;
+  }
+  .fs-carousel-text1{
+    font-family: 'Caveat', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Parisienne', cursive;
+    font-size: 30px
+  }
+  .fs-carousel-text2{
+    font-size: 10px
   }
   .fw-workinghours {
     font-size: 40px;
@@ -59,5 +79,14 @@
     font-size: 30px;
     font-weight: bolder;
     letter-spacing: 0px;
+  }
+  .fs-carousel-text1{
+    font-family: 'Caveat', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Parisienne', cursive;
+    font-size: 20px
+  }
+  .fs-carousel-text2{
+    font-size: 2px
   }
 }
