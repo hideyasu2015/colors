@@ -1,31 +1,78 @@
 @charset "utf-8";
 
 @media (max-width: 850px) {
+
+  .carousel-caption {
+    height: 450px;
+  }
   .carousel-caption h1 {
     font-size: 60px;
     font-weight: bolder;
     letter-spacing: 15px;
   }
+  .fs-carousel-text1{
+    font-family: 'Caveat', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Parisienne', cursive;
+    font-size: 40px
+  }
+  .fs-carousel-text2{
+    font-size: 10px
+  }
 }
 
 @media (max-width: 768px) {
+  
+  .carousel-caption {
+    height: 400px;
+  }
   .carousel-caption h1 {
     font-size: 40px;
     font-weight: bolder;
     letter-spacing: 0px;
   }
-
+  .fs-carousel-text1{
+    font-family: 'Caveat', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Parisienne', cursive;
+    font-size: 30px
+  }
+  .fs-carousel-text2{
+    font-size: 10px
+  }
   .fw-workinghours {
     font-size: 40px;
-    font-weight: 500;
     letter-spacing: 0.025em;
     text-transform: uppercase;
     text-align: left;
   }
   .h-workinghours1 {
-    height: 100px;
-    margin-left: 80px;
+    height: 150px;
+    margin: 0 auto;
   }
+  .backcolor-b {
+    background-color: black;
+    height: 600px;
+  }
+  .email-submit{
+    margin-top: 10px;
+    text-align: center;
+  }
+  .staff-img{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    height: 800px;
+  }
+}
+
+@media (max-width: 575px){
+.h-workinghours2{
+  margin-left: 0;
+}
+
 }
 
 @media (max-width: 411px) {
@@ -33,5 +80,21 @@
     font-size: 30px;
     font-weight: bolder;
     letter-spacing: 0px;
+  }
+  .fs-carousel-text1{
+    font-family: 'Caveat', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Parisienne', cursive;
+    font-size: 20px
+  }
+  .fs-carousel-text2{
+    font-size: 2px
+  }
+}
+
+@media(max-width: 375px){
+  
+  .hours-list ul{
+    margin-top: 30px;
   }
 }

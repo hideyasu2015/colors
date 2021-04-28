@@ -1,34 +1,54 @@
 body {
-  font-family: "Roboto Slab", serif;
-  height: 10000px;
+  font-family: 'Montserrat', sans-serif;
 }
+
 a {
   text-decoration: none;
 }
+
 ul {
   padding: 0;
 }
+
 li {
   list-style: none;
 }
+
 #wrap {
   overflow: hidden;
 }
+
 .relative {
   position: relative;
 }
+
+.fs-newsletter {
+  letter-spacing: 15px;
+}
+
 /*-------------------------------
             header
 -------------------------------*/
 /*-------   nav   -------*/
-.navbar.navbar-expand-lg.transparent {
-  border-width: 0px;
-  -webkit-box-shadow: 0px 0px;
-  box-shadow: 0px 0px;
-  background-color: rgba(0,0,0,0.0);
-  background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
-  background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
-  background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+
+.navbar {
+  position: absolute;
+  top: 0px;
+  z-index: 10;
+  font-weight: bold;
+}
+
+.navbar ul li a {
+  color: #ffffff;
+}
+
+.dropdown-menu {
+  color: black;
+  background-color: gray;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: rgba(0, 0, 0, 0);
 }
 
 /*-------------------------------
@@ -39,43 +59,87 @@ li {
 #main .carousel-item {
   height: 100vh;
 }
+
 .carousel-1 {
-  background-image: url(./images/carousel_1.jpg);
+  background-image: url(./images/carousel_1_1920.jpg);
 }
+
 .carousel-2 {
   background-image: url(./images/carousel_2.jpg);
 }
+
 .carousel-3 {
   background-image: url(./images/carousel_3.jpg);
 }
+
 .carousel-style {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+.carousel-style::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 #main .carousel-control-prev,
 .carousel-control-next {
   background-color: rgba(173, 216, 230, 0);
   border: none;
 }
+
 /* カルーセルテキストスタイル　*/
 .carousel-caption {
-  height: 350px;
+  height: 400px;
 }
+
 .carousel-caption h1 {
-  font-size: 50px;
+  font-size: 90px;
   font-weight: bolder;
   letter-spacing: 30px;
+
 }
+
+.fs-slide1,
+.fs-slide2,
+.fs-slide3 {
+  color: rgba(249, 249, 249, 0.8);
+}
+
+.fs-carousel-text1 {
+  font-family: 'Caveat', cursive;
+  font-family: 'Pacifico', cursive;
+  font-family: 'Parisienne', cursive;
+  font-size: 80px
+}
+
+.fs-carousel-text2 {
+  font-size: 20px
+}
+
+/*-------------------------------
+           フォント関連
+-------------------------------*/
+.f-ourhow {
+  font-weight: 900;
+}
+
 /*-------------------------------
             workinghours
 -------------------------------*/
 .workinghours-img {
-  background-image: url(./images/workinghours.jpg);
+  background-image: url(./images/workinghours_2.jpeg);
   background-size: cover;
 }
+
 .h-workinghours1 {
-  height: 150px;
+  height: 350px;
   margin-left: 80px;
   margin-bottom: 50px;
 }
@@ -85,66 +149,100 @@ li {
   margin-left: 80px;
   margin-bottom: 50px;
 }
+
 .hours-text {
   margin-top: 100px;
 }
+
 .fw-workinghours {
   font-size: 40px;
-  font-weight: 700;
+  font-weight: bold;
   letter-spacing: 0.025em;
   text-transform: uppercase;
   text-align: right;
 }
+
+.h-workinghours1 {
+  margin: 0;
+}
+
 /*-------------------------------
             ourhow
 -------------------------------*/
 .h-ourhow {
   height: 600px;
 }
+
 .our-text {
   margin-top: 30%;
   color: white;
 }
-.our-img-l {
+
+.our-img-1 {
   background-image: url(./images/ourhow_1_640.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
-.our-img-r {
-  background-image: url(./images/sozai_2.jpg);
+
+.our-img-2 {
+  background-image: url(./images/ourhow_2_640.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
+
+.our-img-c {
+  background-color: #1f1128;
+}
+
 .read-more-button {
   display: inline-block;
-  font-size: 15pt; /* 文字サイズ */
-  text-align: center; /* 文字位置   */
-  cursor: pointer; /* カーソル   */
-  padding: 19px 62px; /* 余白       */
-  background: #000000; /* 背景色     */
-  color: #ffffff; /* 文字色     */
-  line-height: 1em; /* 1行の高さ  */
-  transition: 0.3s; /* なめらか変化 */
-  border: 2px solid white; /* 枠の指定 */
+  font-size: 15pt;
+  /* 文字サイズ */
+  text-align: center;
+  /* 文字位置   */
+  cursor: pointer;
+  /* カーソル   */
+  padding: 19px 62px;
+  /* 余白       */
+  background: #000000;
+  /* 背景色     */
+  color: #ffffff;
+  /* 文字色     */
+  line-height: 1em;
+  /* 1行の高さ  */
+  transition: 0.3s;
+  /* なめらか変化 */
+  border: 2px solid white;
+  /* 枠の指定 */
   letter-spacing: 10px;
 }
+
 .read-more-button:hover {
-  color: #000000; /* 背景色     */
-  background: #ffffff; /* 文字色     */
+  color: #000000;
+  /* 背景色     */
+  background: #ffffff;
+  /* 文字色     */
 }
+
 /*-------------------------------
             counterup
 -------------------------------*/
 .backcolor-b {
   background-color: black;
+  height: 300px;
 }
+
 .counter-num-text {
   font-size: 50px;
   color: #ffffff;
 }
+
 .counter-com-text3 {
   font-size: 10px;
 }
+
 /*-------------------------------
-            cast
+            staff
 -------------------------------*/
 .fa-facebook-f,
 .fa-twitter,
@@ -153,6 +251,30 @@ li {
   padding-right: 15px;
   color: #000000;
 }
+
+.staff-img1 {
+  background-image: url(./images/staff_1.jpg);
+}
+
+.staff-img2 {
+  background-image: url(./images/staff_2.jpg);
+
+}
+
+.staff-img3 {
+  background-image: url(./images/staff_3.jpg);
+}
+
+.staff-img {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  height: 600px;
+  box-shadow: 5px 5px 20px 8px rgba(3, 8, 40, 0.3);
+}
+
 /*-------------------------------
             newsletter
 -------------------------------*/
@@ -161,10 +283,10 @@ li {
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  
+
 }
+
 .gray-backimg {
   background-color: rgba(0, 0, 0, 0.4);
   height: 400px;
 }
-

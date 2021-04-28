@@ -10,14 +10,24 @@
     <link rel="stylesheet" href="destyle.css">
     <!-- Googlefont -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amita&family=Homemade+Apple&family=Montserrat:ital,wght@0,500;0,600;0,700;0,800;1,900&family=Poppins:wght@200;300&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=Pacifico&family=Parisienne&display=swap"
+        rel="stylesheet">
     <!-- font awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
         integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
     <!-- aos -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- bootstrap -->
-    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!-- <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css"> -->
+
     <!-- orignal stylesheet -->
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="media.css">
@@ -31,9 +41,11 @@
             <section id="top">
                 <div class="container-fuluid">
                     <div class="row">
-                        <nav class="navbar navbar-expand-lg transparent navbar-light bg-light">
+
+                        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: none;">
+
                             <div class="container-fluid">
-                                <a class="navbar-brand" href="#">Colors</a>
+                                <a class="navbar-brand text-white" href="#">Colors</a>
                                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
                                     aria-expanded="false" aria-label="Toggle navigation">
@@ -42,22 +54,22 @@
                                 <div class="collapse navbar-collapse flex-row-reverse me-5" id="navbarNavDropdown">
                                     <ul class="navbar-nav">
                                         <li class="nav-item me-5">
-                                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                            <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
                                         </li>
                                         <li class="nav-item me-5">
-                                            <a class="nav-link" href="#">PAGES</a>
+                                            <a class="nav-link text-white" href="#">PAGES</a>
                                         </li>
                                         <li class="nav-item me-5">
-                                            <a class="nav-link" href="#">PORTFOLIO</a>
+                                            <a class="nav-link text-white" href="#">PORTFOLIO</a>
                                         </li>
                                         <li class="nav-item me-5">
-                                            <a class="nav-link" href="#">BLOG</a>
+                                            <a class="nav-link text-white" href="#">BLOG</a>
                                         </li>
                                         <li class="nav-item me-5">
-                                            <a class="nav-link" href="#">SHOP</a>
+                                            <a class="nav-link text-white" href="#">SHOP</a>
                                         </li>
                                         <li class="nav-item me-5 dropdown">
-                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                                            <a class="nav-link dropdown-toggle  text-white" href="#" id="navbarDropdown"
                                                 role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                                 ELEMENTS
                                             </a>
@@ -81,48 +93,50 @@
 
         <!-- carousel -->
         <section id="main">
-            <div class="container-fulid">
-                <div class="row">
-                    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active carousel-1 carousel-style">
-                                <div class="carousel-caption">
-                                    <h4 data-aos="fade-down">New you</h4>
-                                    <h1 class="top-text" data-aos="fade-left">・STYLISH・</h1>
-                                    <h4 data-aos="fade-up">NEW YORK・SINCE 2004</h4>
-                                </div>
-                            </div>
-                            <div class=" carousel-item carousel-2 carousel-style">
-                                <div class="carousel-caption">
-                                    <h4 data-aos="fade-down">Get noticed</h4>
-                                    <h1 class="top-text" data-aos="fade-left">・FASHION・</h1>
-                                    <h4 data-aos="fade-up">NEW YORK・SINCE 2004</h4>
-                                </div>
-                            </div>
-                            <div class="carousel-item carousel-3 carousel-style">
-                                <div class="carousel-caption">
-                                    <h4>Feel tree</h4>
-                                    <h1 class="top-text" data-aos="fade-left">・COLORS・</h1>
-                                    <h4 data-aos="fade-up">NEW YORK・SINCE 2004</h4>
-                                </div>
-                            </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel"
-                                data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="sr-only"></span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel"
-                                data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="sr-only"></span>
-                            </button>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active carousel-1 carousel-style">
+                        <div class="carousel-caption fs-slide1">
+                            <h4 class="fs-carousel-text1 m-0" data-aos="fade-down" data-aos-delay="300">New you</h4>
+                            <h1 class="top-text mb-2" data-aos="fade-left" data-aos-delay="300">STYLISH</h1>
+                            <h4 class="fs-carousel-text2" data-aos="fade-up" data-aos-delay="300">NEW YORK・SINCE 2004
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="carousel-item carousel-2 carousel-style">
+                        <div class="carousel-caption fs-slide2">
+                            <h4 class="fs-carousel-text1 m-0" data-aos="fade-down" data-aos-delay="300">Get noticed</h4>
+                            <h1 data-aos="fade-left mb-2" data-aos="fade-left" data-aos-delay="300">FASHION</h1>
+                            <h4 class="fs-carousel-text2" data-aos="fade-up" data-aos-delay="300">NEW YORK・SINCE 2004
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="carousel-item carousel-3 carousel-style">
+                        <div class="carousel-caption fs-slide3">
+                            <h4 class="fs-carousel-text1 m-0" data-aos="fade-down" data-aos-delay="300">Feel tree</h4>
+                            <h1 data-aos="fade-left mb-2" data-aos="fade-left" data-aos-delay="300">COLORS</h1>
+                            <h4 class="fs-carousel-text2" data-aos="fade-up" data-aos-delay="300">NEW YORK・SINCE 2004
+                            </h4>
                         </div>
                     </div>
                 </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </a>
             </div>
         </section>
         <section id="workinghours">
-            <div class="container-fulid workinghours-img">
+            <div class="container-fluid workinghours-img">
                 <div class="row">
                     <div class="h-workinghours1 col-md-3 col-sm-10">
                         <div class="hours-text">
@@ -132,9 +146,9 @@
                     <div class="h-workinghours2 col-md-7 col-sm-8">
                         <div class="hours-list hours-text">
                             <div class="row">
-                                <div class="col-md-12">
+                                <div class="col-md-9 offset-md-1">
                                     <ul>
-                                        <li class="d-flex justify-content-between p-2 mt-2"
+                                        <li class="d-flex justify-content-between p-2"
                                             style="border-bottom: 1px solid #afaaa9;">
                                             <h4>WORKING DAYS</h4>
                                             <p>9AM - 9PM</p>
@@ -158,17 +172,17 @@
             </div>
         </section>
         <section id="ourhow">
-            <div class="container-fulid">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="h-ourhow col-md-6 col-sm-12 p-0">
-                        <div class="h-ourhow our-img-l"></div>
+                        <div class="h-ourhow our-img-1"></div>
                     </div>
-                    <div class="h-ourhow col-md-6 col-sm-12 our-img-r">
-                        <div class="row">
+                    <div class="h-ourhow col-md-6 col-sm-12 our-img-c">
+                        <div class="row" data-aos="fade-left" data-aos-delay="300">
                             <div class="col-md-12">
                                 <div class="our-text">
                                     <p class="text-center mb-3">NEW YORK・SINCE2004</p>
-                                    <h3 class="text-center mb-3">OUR SUCCESS SECRET</h3>
+                                    <h3 class="f-ourhow text-center mb-3">OUR SUCCESS SECRET</h3>
                                     <p class="text-center mb-5 ms-5 me-5">
                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                                         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
@@ -184,12 +198,12 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="h-ourhow col-md-6 col-sm-12 our-img-r">
-                        <div class="row">
+                    <div class="h-ourhow col-md-6 col-sm-12 our-img-c">
+                        <div class="row" data-aos="fade-right" data-aos-delay="300">
                             <div class="col-md-12">
                                 <div class="our-text">
                                     <p class="text-center mb-3">NEW YORK・SINCE2004</p>
-                                    <h3 class="text-center mb-3">HOW WE DO IT</h3>
+                                    <h3 class="f-ourhow text-center mb-3">HOW WE DO IT</h3>
                                     <p class="text-center mb-5 ms-5 me-5">
                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                                         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
@@ -204,71 +218,40 @@
                         </div>
                     </div>
                     <div class="h-ourhow col-md-6 col-sm-12 p-0">
-                        <div class="h-ourhow our-img-l"></div>
+                        <div class="h-ourhow our-img-2"></div>
                     </div>
                 </div>
             </div>
         </section>
         <section id="countup">
-            <div class="container-fulid backcolor-b">
-                <div class="row pt-5 pb-5">
-                    <div class="col-lg-3 col-md-6 text-center">
+            <div class="container-fluid backcolor-b">
+                <div class="backcolor-b row pt-5 pb-5  d-flex align-items-center justify-content-evenly">
+                    <div class="counter-box col-lg-3 col-md-6 text-center">
                         <span class="counter counter-num-text">125</span>
                         <p class="counter-com-text text-white">FASHION SHOWS</p>
                     </div>
-                    <div class="col-lg-3 col-md-6 text-center">
+                    <div class="counter-box col-lg-3 col-md-6 text-center">
                         <span class="counter counter-num-text">300</span>
                         <p class="counter-com-text text-white">WORLDWIDE CUSTOMERS</p>
                     </div>
-                    <div class="col-lg-3 col-md-6 text-center">
+                    <div class="counter-box col-lg-3 col-md-6 text-center">
                         <span class="counter counter-num-text">35</span>
                         <p class="counter-com-text text-white">AWORD WINNERS</p>
                     </div>
-                    <div class="col-lg-3 col-md-6 text-center">
+                    <div class="counter-box col-lg-3 col-md-6 text-center">
                         <span class="counter counter-num-text">145</span>
-                        <p class="counter-com-text 5text-white">DIFFRENT HAIRSTYLES</p>
+                        <p class="counter-com-text text-white">DIFFRENT HAIRSTYLES</p>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="cast">
-            <div class="container-fulid mt-5 mb-5">
+        <section id="staff">
+            <div class="container-fluid mt-5 mb-5">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
                         <div class="row">
-                            <div class="col-md-12">
-                                <img class="img-fluid" src="./images/sozai_1.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12 text-center">
-                                <p>XXXXXX XXXXXXXXXX</p>
-                            </div>
-                        </div>
-                        <div class="row mb-3">
-                            <div class="col-md-12 text-center">
-                                <span>HAIRCUTS</span>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-1 offset-4  text-center" style="border-right: solid 1px black;">
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                            </div>
-                            <div class="col-1 text-center" style="border-right: solid 1px black;">
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                            </div>
-                            <div class="col-1 text-center" style="border-right: solid 1px black;">
-                                <a href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                            <div class="col-1 text-center">
-                                <a href=""><i class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <img class="img-fluid" src="./images/sozai_1.jpg" alt="">
+                            <div class="col-md-12 mb-4 mt-5">
+                                <div class="staff-img staff-img1"></div>
                             </div>
                         </div>
                         <div class="row">
@@ -296,10 +279,41 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
                         <div class="row">
-                            <div class="col-md-12">
-                                <img class="img-fluid" src="./images/sozai_1.jpg" alt="">
+                            <div class="col-md-12 mb-4 mt-5">
+                                <div class="staff-img staff-img2"></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <p>XXXXXX XXXXXXXXXX</p>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-12 text-center">
+                                <span>HAIRCUTS</span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-1 offset-4  text-center" style="border-right: solid 1px black;">
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                            </div>
+                            <div class="col-1 text-center" style="border-right: solid 1px black;">
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                            </div>
+                            <div class="col-1 text-center" style="border-right: solid 1px black;">
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                            <div class="col-1 text-center">
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                        <div class="row">
+                            <div class="col-md-12 mb-4 mt-5">
+                                <div class="staff-img staff-img3"></div>
                             </div>
                         </div>
                         <div class="row">
@@ -331,42 +345,138 @@
             </div>
         </section>
         <section id="newsletter" class="news-img">
-            <div class="container-fulid gray-backimg">
+            <div class="container-fluid gray-backimg">
                 <div class="row">
                     <div class="col-md-12 mt-5 mb-5 text-center">
                         <span class="text-white">FOLLOW OUR WORK</span>
-                        <h1 class="text-white mt-3 mb-3">NEWSLETTER</h1>
+                        <h1 class="fs-newsletter text-white mt-3 mb-3">NEWSLETTER</h1>
                         <p class="text-white">Get a shiny, satin-soft hair with the best hair products & a team of
                             hairdressers that will</p>
                         <p class="text-white">transform your look. Follow us!</p>
                     </div>
-                    <form action="#" method="post" class="row">
-                        <div class="col-md-4">
+                    <form action="#" method="post" class="row d-flex justify-content-center align-items-center m-0">
+                        <div class="col-md-4 offset-md-2">
                             <label for="staticEmail2" class="visually-hidden">Email</label>
                             <input type="email" name="youremail" class="form-control" id="staticEmail2"
                                 placeholder="Email">
                         </div>
                         <div class="email-submit col-md-2">
-                            <button type="submit" class="btn btn-light mb-3">SIGN UP</button>
+                            <button type="submit" class="btn btn-light">SIGN UP</button>
                         </div>
                     </form>
                 </div>
             </div>
         </section>
         <footer>
-            <div class="container-fulid">
+            <div class="container-fluid" style="background-color:black; color:white;">
+                <div class="row ms-5 me-5">
+                    <div class="col-lg-3 col-md-6 mt-5 mb-5">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h5>COLORS</h5>
+                                <div class="white-line mb-2" style="border-bottom: solid white 1px;"></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                                    eiusmod tempor
+                                    incididunt. Ut</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-1 offset-3  pe-4 text-center" style="border-right: solid 1px white;">
+                                <a href=""><i class="fab fa-facebook-f" style="color:white;"></i></a>
+                            </div>
+                            <div class="col-1 text-center pe-4" style="border-right: solid 1px white;">
+                                <a href=""><i class="fab fa-twitter" style="color:white;"></i></a>
+                            </div>
+                            <div class="col-1 text-center pe-4" style="border-right: solid 1px white;">
+                                <a href=""><i class="fab fa-instagram" style="color:white;"></i></a>
+                            </div>
+                            <div class="col-1 text-center pe-4">
+                                <a href=""><i class="fab fa-linkedin-in" style="color:white;"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mt-5 mb-5">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h5>CONTACT</h5>
+                                <div class="white-line mb-2" style="border-bottom: solid white 1px;"></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p>xxxxxxxxxxxxxxxxxx</p>
+                                <p>xxx@xxxx.com</p>
+                                <p>xx-xxxx-xxxx</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mt-5 mb-5">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h5>INFO</h5>
+                                <div class="white-line mb-2" style="border-bottom: solid white 1px;"></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <ul>
+                                    <li class=" d-flex justify-content-between">
+                                        <span>Working Days</span>
+                                        <span>10AM - 8PM</span>
+                                    </li>
+                                    <li class=" d-flex justify-content-between">
+                                        <span>Saturday</span>
+                                        <span>10AM - 8PM</span>
+                                    </li>
+                                    <li class=" d-flex justify-content-between">
+                                        <span>Sunday</span>
+                                        <span>closed</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mt-5 mb-5">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h5>MAPS</h5>
+                                <div class="white-line mb-2" style="border-bottom: solid white 1px;"></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div id="map" style="height: 200px; width: 100%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid" style="background-color:#141414; color:white;">
                 <div class="row">
+                    <div class="col-md-12 mt-3 mb-3">
+                        <p class="text-center mb-0">© 2021 XXXXXXX XXXXXX</p>
+                    </div>
                 </div>
             </div>
         </footer>
     </div>
-
     <!-- bootstrap  -->
-    <!-- <script src=".node_modules/bootstrap/dist/js/bootstrap.min.js"></script> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        　integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" 　crossorigin="anonymous">
+    </script>
+
+    <!-- <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script> -->
+
+
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-        crossorigin="anonymous"></script>
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+    </script>
     <!-- aos -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
@@ -380,6 +490,32 @@
     <script src="jquery.counterup.min.js" defer></script>
     <!-- script.js -->
     <script src="script.js"></script>
+    <!-- googlemap  -->
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCOe4IlPm4VSZ8i2dgPo6cIdVucqujBJbA&callback=shojiMap&libraries=&v=weekly"
+        defer></script>
+    <script>
+        let map;
+
+        function shojiMap() {
+            map = new google.maps.Map(document.getElementById('map'), {
+                center: {
+                    lat: -34.397,
+                    lng: 150.644
+                },
+                zoom: 16,
+            });
+            const marker = new google.maps.Marker({
+                // The below line is equivalent to writing:
+                // position: new google.maps.LatLng(-34.397, 150.644)
+                position: {
+                    lat: -34.397,
+                    lng: 150.644
+                },
+                map: map,
+            });
+        }
+    </script>
 </body>
 
 </html>
